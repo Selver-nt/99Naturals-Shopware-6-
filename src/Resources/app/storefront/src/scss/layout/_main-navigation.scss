@@ -1,0 +1,21 @@
+.main-navigation {
+    & > .container {
+        padding: 0;
+    }
+}
+
+.main-navigation-link {
+    padding: map-get($spacers, 2);
+
+    @include media-breakpoint-up(lg) {
+        padding-bottom: map-get($spacers, 8);
+    }
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &:last-child {
+        padding-right: 0;
+    }
+}

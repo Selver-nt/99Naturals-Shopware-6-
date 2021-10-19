@@ -1,0 +1,215 @@
+/*
+Override variable defaults
+==================================================
+This file is used to override default SCSS variables from the Shopware Storefront or Bootstrap.
+
+Because of the !default flags, theme variable overrides have to be declared beforehand.
+https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults
+*/
+
+// CUSTOM VARIABLES
+// --------------------------
+// --------------------------
+
+
+$sw-color-brand-primary-light: #caeb3e;
+$sw-color-brand-primary-dark: #3c7c5e;
+// $sw-color-brand-secondary-light: #333;
+// $sw-color-brand-secondary-dark: #333;
+
+$sw-btn-primary-bg: #ec654a;
+$sw-btn-primary-color: #fff;
+
+$sw-text-color-white: #fff;
+
+$white-bg: #fff;
+$gray-bg: #fafafa;
+
+$sw-footer-bg: $gray-bg;
+
+// --------------------------
+// --------------------------
+
+
+// OVERRIDE VARIABLES
+// --------------------------
+// --------------------------
+
+//colors
+$gray-100: #f8f9fa;
+$gray-900: #212529;
+$light: $gray-100;
+$dark: $gray-900;
+
+$theme-colors: (
+  "primary":    $sw-color-brand-primary,
+  "primary-dark": $sw-color-brand-primary-dark,
+  "primary-light": $sw-color-brand-primary-light,
+  "secondary":  $sw-color-brand-secondary,
+  "success":    $sw-color-success,
+  "info":       $sw-color-info,
+  "warning":    $sw-color-warning,
+  "danger":     $sw-color-danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+// spacers
+$spacer: 4px;
+
+$spacers: (
+  0: 0,
+  1: $spacer, //4px
+  2: $spacer * 2, //8px
+  3: $spacer * 3, //12px
+  4: $spacer * 4, //16px
+  5: $spacer * 5, //20px
+  6: $spacer * 6, //24px
+  7: $spacer * 7, //28px
+  8: $spacer * 8, //32px
+  9: $spacer * 9, //36px
+  10: $spacer * 10, //40px
+  11: $spacer * 11, //44px
+  12: $spacer * 12, //48px
+  13: $spacer * 13, //52px
+  14: $spacer * 14, //56px
+  15: $spacer * 15, //60px
+  16: $spacer * 16, //64px
+  17: $spacer * 17, //68px
+  18: $spacer * 18, //72px
+  19: $spacer * 19, //76px
+  20: $spacer * 20, //80px
+  21: $spacer * 21, //84px
+  22: $spacer * 22, //88px
+  23: $spacer * 23, //92px
+  24: $spacer * 24, //96px
+  25: $spacer * 25, //100px
+  26: $spacer * 26, //104px
+  27: $spacer * 27, //108px
+  28: $spacer * 28, //112px
+  29: $spacer * 29, //116px
+  30: $spacer * 30, //120px
+  31: $spacer * 31, //124px
+  32: $spacer * 32, //128px
+  33: $spacer * 33, //132px
+  34: $spacer * 34, //136px
+  35: $spacer * 35, //140px
+  36: $spacer * 36, //144px
+  37: $spacer * 37, //148px
+  38: $spacer * 38, //152px
+  39: $spacer * 39, //156px
+  40: $spacer * 40, //160px
+  41: $spacer * 41, //164px
+  42: $spacer * 42, //168px
+  43: $spacer * 43, //172px
+  44: $spacer * 44, //176px
+  45: $spacer * 45, //180px
+  46: $spacer * 46, //184px
+  47: $spacer * 47, //188px
+  48: $spacer * 48, //192px
+  49: $spacer * 49, //196px
+  50: $spacer * 50, //200px
+  75: $spacer * 75, //300px
+  87: $spacer * 87, //348px
+);
+
+// Grid columns
+$grid-gutter-width: 5%;
+$gutters: $spacers;
+
+// containers
+$container-padding-x: $grid-gutter-width / 2;
+$container-max-width: 1250px;
+
+// box-shadow
+$box-shadow: none;
+
+// border
+$border-width: 1px;
+$border-widths: (
+  0: 0,
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px
+);
+
+// links
+$link-color: #000;
+$link-hover-color: $sw-color-brand-primary;
+$link-hover-decoration: none;
+
+// font-weight
+$font-weight-semibold: 500;
+
+// font sizes
+$font-size-root: 16px;
+$font-size-base: 1.125rem; //18px
+$font-size-sm: 0.75rem; //12px
+$font-size-lg: 1.375rem; //22px
+
+// headings
+$headings-margin-bottom: 26px;
+$headings-font-style: normal;
+$headings-font-weight: 600;
+
+// buttons
+$btn-padding-y: 4px;
+$btn-padding-x: 24px;
+$btn-font-size: 24px;
+$btn-line-height: 1.35;
+$btn-font-weight: bold;
+$btn-border-width: 0;
+$btn-box-shadow: $box-shadow;
+$btn-focus-box-shadow: $box-shadow;
+$btn-active-box-shadow: $box-shadow;
+$btn-border-radius: 17px;
+$btn-focus-width: 0;
+
+$btn-padding-y-lg: 6px;
+$btn-padding-x-lg: 28px;
+$btn-font-size-lg: 23px;
+$btn-border-radius-lg: 24px;
+
+// input buttons
+$input-btn-focus-box-shadow: $box-shadow;
+
+// inputs
+$input-height: auto;
+$input-padding-y: 6px;
+// $input-padding-x: 1.5rem;
+$input-font-size: $font-size-base;
+$input-font-weight: normal;
+$input-line-height: 1.35;
+$input-color: $sw-text-color;
+$input-border-width: 1px;
+$input-border-color: $sw-border-color;
+$input-focus-border-color: $sw-color-brand-primary;
+$input-border-radius: 0;
+$input-bg: transparent;
+// $input-placeholder-color: $sw-color-brand-primary;
+$input-box-shadow: $box-shadow;
+$input-focus-box-shadow: $box-shadow;
+
+$input-placeholder-color: #e8e8e8;
+
+//select
+$custom-select-border-radius: 0;
+
+//tables
+$table-color: $sw-text-color;
+
+//dropdown
+$dropdown-min-width: 200px;
+$dropdown-padding-x: 16px;
+$dropdown-padding-y: 8px;
+$dropdown-header-padding: 8px 0;
+$dropdown-border-radius: 2px;
+
+//offcanvas
+$offcanvas-padding-y: 20px;
+$offcanvas-padding-x: 20px;
+
+// --------------------------
+// --------------------------

@@ -1,0 +1,23 @@
+.btn {
+    &.disabled, 
+    &:disabled {
+        background: #eee;
+        color: #bcc1c7;
+    }
+
+    &-primary {
+        color: #fff;
+    }
+
+    &-secondary {
+        color: #fff;
+    }
+
+    &-link {
+        @extend .fs-lg;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

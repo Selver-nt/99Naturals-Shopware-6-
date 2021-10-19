@@ -1,0 +1,8 @@
+.cart-item {
+    padding: map-get($spacers, 5) 0;
+    border-bottom: 1px solid $sw-border-color;
+}
+
+.cart-item-details {
+    padding-top: 0;
+}

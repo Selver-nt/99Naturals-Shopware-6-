@@ -1,0 +1,54 @@
+.product-box {
+    .product-name {
+        height: map-get($text-line-heights, lg) * 2;
+        color: $sw-text-color;
+        font-weight: $font-weight-semibold;
+        @extend .fs-lg;
+
+        &:hover {
+            color: $sw-color-brand-primary-dark;
+        }
+    }
+
+    .product-price {
+        color: $sw-color-brand-primary-dark;
+        font-weight: $font-weight-bold;
+        @extend .fs-lg;
+        font-size: 20px;
+
+        &.with-list-price {
+            color: $sw-color-brand-primary-dark;
+            font-weight: $font-weight-bold;
+        }
+    }
+
+    .list-price {
+        color: $sw-text-color;
+        @extend .fs-lg;
+    }
+
+    .list-price-percentage {
+        display: none;
+    }
+}
+
+.box-minimal {
+    .product-image-wrapper {
+        height: 220px;
+        margin-bottom: map-get($spacers, 10);
+    }
+
+    .product-price-info {
+        margin: 0;
+    }
+
+    .product-action {
+        margin-top: map-get($spacers, 7);
+    }
+}
+
+.product-slider-item {
+    .card-body {
+        padding: 0;
+    }
+}

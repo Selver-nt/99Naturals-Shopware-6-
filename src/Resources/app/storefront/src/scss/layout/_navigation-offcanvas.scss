@@ -1,0 +1,13 @@
+.navigation-offcanvas {
+    .offcanvas-content-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.navigation-offcanvas-container,
+.navigation-offcanvas-overlay,
+.navigation-offcanvas-placeholder {
+    padding-left: $offcanvas-padding-x;
+    padding-right: $offcanvas-padding-x;
+}

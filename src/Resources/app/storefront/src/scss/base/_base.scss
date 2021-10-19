@@ -1,0 +1,12 @@
+html {
+    font-size: $font-size-root;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: $container-max-width;
+}
+
+.container-main {
+    padding-top: 0;
+}

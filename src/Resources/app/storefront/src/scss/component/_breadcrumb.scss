@@ -1,0 +1,23 @@
+.breadcrumb {
+    padding: map-get($spacers, 15) 0 map-get($spacers, 5);
+    @extend .fs-lg;
+
+    .breadcrumb {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        width: 100%;
+    }
+}
+
+.breadcrumb-placeholder {
+    margin: 0 map-get($spacers, 1);
+}
+
+.breadcrumb-link {
+    &.is-active {
+        color: $sw-color-brand-primary;
+    }
+}

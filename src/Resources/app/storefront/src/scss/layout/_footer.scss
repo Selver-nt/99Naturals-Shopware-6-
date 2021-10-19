@@ -1,0 +1,155 @@
+.footer-main {
+    background-color: $sw-footer-bg;
+}
+
+.footer-columns {
+    padding: map-get($spacers, 18) 0 map-get($spacers, 10);
+
+    @include media-breakpoint-up(lg) {
+        padding-bottom: map-get($spacers, 15);
+    }
+}
+
+.footer-headline {
+    justify-content: center;
+    margin-top: 20px;
+
+    @include media-breakpoint-up(lg) {
+        justify-content: center;
+    }
+
+    margin-bottom: map-get($spacers, 4);
+    padding: map-get($spacers, 0);
+    font-family: $sw-font-family-headline;
+    font-weight: $headings-font-weight;
+}
+
+.footer-column-content-inner {
+    padding-bottom: map-get($spacers, 7);
+
+    @include media-breakpoint-up(lg) {
+        padding-bottom: map-get($spacers, 0);
+    }
+
+    ul {
+        margin: map-get($spacers, 0);
+    }
+}
+
+.footer-column-content {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+        text-align: left;
+    }
+}
+
+.footer-link-item {
+    padding: map-get($spacers, 0);
+}
+
+.footer-link {
+    display: inline-block;
+    padding: map-get($spacers, 2) 0;
+    color: inherit;
+    font-family: $sw-font-family-headline;
+    font-weight: $font-weight-normal;
+}
+
+.footer-social-icons-container {
+    justify-content: center;
+    margin-bottom: map-get($spacers, 10);
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: map-get($spacers, 0);
+        justify-content: flex-start;
+    }
+}
+
+.footer-social-link {
+    padding:  0 map-get($spacers, 3) map-get($spacers, 3);
+    color: inherit;
+
+    &:first-child {
+        padding-left: map-get($spacers, 0);
+    }
+
+    .icon {
+        height: 32px;
+        width: auto;
+        color: inherit;
+    }
+
+    .icon-bioo {
+        height: 45px;
+        width: auto;
+    }
+    
+    .icon-organic {
+        height: 40px;
+        width: auto;
+    }
+
+    .icon-biooo {
+        height: 45px;
+        width: auto;
+    }
+
+    svg {
+        width: auto;
+    }
+}
+
+.footer-column-headline {
+    justify-content: center;
+
+    @include media-breakpoint-up(md) {
+        justify-content: flex-start;
+    }
+}
+
+.social-link-two {
+    margin-left: -7px;
+}
+
+.footer-logos {
+    padding: 0;
+}
+
+.footer-logo {
+    margin-right: map-get($spacers, 4);
+    margin-bottom: 0;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.footer-logo-image {
+    max-height: 45px;
+}
+
+.footer-bottom {
+    padding: map-get($spacers, 5) $container-padding-x map-get($spacers, 4);
+    background-color: $sw-footer-bg;
+}
+
+.footer-copyright {
+    @include media-breakpoint-up(lg) {
+        text-align: left;
+    }
+}
+
+.footer-vat {
+    p {
+        @extend .fs-sm;
+    }
+}
+
+.icons-social {
+    justify-content: center;
+
+    @include media-breakpoint-up(md) {
+        justify-content: flex-start;
+    }
+}

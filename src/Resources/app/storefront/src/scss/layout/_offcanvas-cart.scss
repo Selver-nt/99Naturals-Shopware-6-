@@ -1,0 +1,33 @@
+.offcanvas-cart {
+    .cart-item-price {
+        .cart-item-reference-price {
+            line-height: 1.3rem;
+        }
+    }
+}
+
+.offcanvas-cart-header {
+    margin-bottom: map-get($spacers, 3);
+}
+
+.offcanvas-cart-actions {
+    .btn {
+        @extend .fs-lg;
+    }
+}
+
+.offcanvas-cart-promotion-form {
+    margin-bottom: map-get($spacers, 4);
+}
+
+.offcanvas-cart-items {
+    .cart-item-remove-button {
+        padding: map-get($spacers, 1) map-get($spacers, 3);
+    
+        .icon {
+            svg {
+                top: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.account-menu-dropdown,
+.account-menu-offcanvas {
+
+    .account-aside-item {
+        padding: map-get($spacers, 1) 0;
+        border: 0;
+        @extend .fs-md;
+    }
+}
+
+.account-menu-dropdown {
+    padding: $dropdown-padding-y $dropdown-padding-x;
+}
+
+.account-menu-login {
+    padding: map-get($spacers, 2) 0;
+}
+
+.account-menu-login-button {
+    margin-bottom: map-get($spacers, 2);
+    @extend .fs-lg;
+}
+
+.account-menu-links {
+    padding: map-get($spacers, 3) 0 map-get($spacers, 2);
+}

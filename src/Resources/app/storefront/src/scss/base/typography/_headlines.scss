@@ -1,0 +1,54 @@
+$heading-font-sizes: (
+    1: 50px,
+    2: 48px,
+    3: 32px,
+    4: 22px,
+    5: 20px,
+    6: 18px
+);
+
+$heading-line-heights: (
+    1: 70px,
+    2: 62px,
+    3: 44px,
+    4: 28px,
+    5: 24px,
+    6: 20px
+);
+
+$heading-font-sizes-lg: (
+    1: 72px,
+    2: 48px,
+    3: 32px,
+    4: 22px,
+    5: 20px,
+    6: 18px
+);
+
+$heading-line-heights-lg: (
+    1: 78px,
+    2: 62px,
+    3: 44px,
+    4: 28px,
+    5: 24px,
+    6: 20px
+);
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-style: $headings-font-style;
+    font-weight: $headings-font-weight;
+    word-break: break-word;
+}
+
+@each $key, $heading-font-size in $heading-font-sizes {
+    .h#{$key},
+    h#{$key} {
+        font-size: $heading-font-size;
+        line-height: line-height(map-get($heading-line-heights, $key), $heading-font-size);
+
+        @include media-breakpoint-up(lg) {
+            font-size: map-get($heading-font-sizes-lg, $key);
+            line-height: line-height(map-get($heading-line-heights-lg, $key), map-get($heading-font-sizes-lg, $key));
+        }
+    }
+}

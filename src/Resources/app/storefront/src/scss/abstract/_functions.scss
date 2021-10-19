@@ -1,0 +1,7 @@
+@function line-height($lh, $fs) {
+    @return round(($lh / $fs) * 1000) / 1000;
+}
+
+@function rem($size) {
+    @return $size / $font-size-root * 1rem;
+}

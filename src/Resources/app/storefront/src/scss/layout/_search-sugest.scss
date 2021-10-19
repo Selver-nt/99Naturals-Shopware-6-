@@ -1,0 +1,29 @@
+.search-suggest-container {
+    padding: map-get($spacers, 4);
+}
+
+.search-suggest-product {
+    border-bottom: 1px solid $sw-border-color;
+}
+
+.search-suggest-product-link {
+    padding: map-get($spacers, 2) 0;
+}
+
+.search-suggest-product-image-container {
+    margin: 0 map-get($spacers, 2);
+}
+
+.search-suggest-product-name {
+    @extend .fs-md;
+}
+
+.search-suggest-product-price {
+    margin-left: map-get($spacers, 2);
+    @extend .fs-md;
+}
+
+.search-suggest-total {
+    padding: map-get($spacers, 2);
+    @extend .fs-md;
+}

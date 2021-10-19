@@ -1,0 +1,15 @@
+.account-content {
+    padding-top: map-get($spacers, 10);
+
+    .account-content-aside {
+        @include media-breakpoint-up(xl) {            
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+}
+
+.pickware-dhl-address-radio-logo {
+    max-width: 50px;
+    max-height: 50px;
+}

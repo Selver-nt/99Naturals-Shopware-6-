@@ -1,0 +1,53 @@
+{
+    "header": {
+        "home": "Startseite"
+    },
+    "uspBar": {
+        "item1": "Kostenloser Versand ab 18€",
+        "item2": "Versand innerhalb von 24h",
+        "item3": "30 Tage Geld-Zurück-Garantie",
+        "item4": "info@99naturals.de",
+        "item5": "Tel. 0911-95338394"
+    },
+    "detail": {
+        "listPricePercentage": "Sie sparen %price% %",
+        "naturalsIconHeadline": "Grüne Superpower für dich",
+        "propertiesTitle": "Nährwerte",
+        "propertiesText": "Unzubereitet pro 100 g",
+        "qualitiesTitle": "Unser Qualitätsversprechen",
+        "qualitiesListItem1": "Rohware von in Deutschland zertifizierten Paernern",
+        "qualitiesListItem2": "schonende Verarbeitung",
+        "qualitiesListItem3": "garantiert vegane Produkte",
+        "qualitiesListItem4": "ökologische Verpackung",
+        "qualitiesListItem5": "möglixchst kurze Transportwege",
+        "qualitiesListItem6": "guter Service für dich",
+        "qualitiesText": "Unsere Produkte enthalten keine Farbstoffe, Füllstoffe, künsliche Aromen, Verdickungsmittel oder Konservierungsstoffe."
+    },
+    "footer": {
+        "copyrightInfo": "© 2021 99naturals, Grüne Superpower für dich.",
+        "contactHeadline": "Kontakt",
+        "socialHeadline": "Folge uns",
+        "certifiedHeadline": "Bio-zertifiziert",
+        "secureShoppingHeadline": "Sicher einkaufen",
+        "contactText": "Du hast Fragen oder <br> brauchst Beratung?",
+        "formText": "Dann schreib uns <br> einfach eine Nachricht <br> uber unser Kontakt- <br> formular oder eine E-Mail <br> an <a href='mailto:info@99naturals.de'>info@99naturals.de</a>",
+        "newsletter": {
+            "text": "Melde ditch jetzt fur unseren Newsletter an und spare <span class='text-primary'>10 %</span> bei deiner nachsten Bestellung!",
+            "submit": "Anmelden*"
+        }
+    },
+    "newsletter": {
+        "placeholderMail": "Deine E-Mail-Adresse"
+    },
+    "socialMedia": {
+        "facebookLink": "#",
+        "facebookTitle": "Facebook",
+        "instagramLink": "#",
+        "instagramTitle": "Instagram",
+        "twitterLink": "#",
+        "twitterTitle": "Twitter"
+    },
+    "listing": {
+        "boxProductDetails": "Zum Artikel"
+    }
+}

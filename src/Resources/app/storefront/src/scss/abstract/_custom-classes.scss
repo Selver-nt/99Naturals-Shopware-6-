@@ -1,0 +1,76 @@
+.list-type-checkmark {
+    font-weight: $font-weight-semibold;
+
+    &.type-transparent {
+        li {
+            &::before {
+                background-image: url('/bundles/naturals/assets/images/checkmark.png');
+            }
+        }
+    }
+
+    li {
+        display: flex;
+        margin-bottom: map-get($spacers, 2);
+
+        &::before {
+            content: '';
+            flex: 0 0 26px;
+            display: block;
+            width: 26px;
+            height: 26px;
+            margin-right: map-get($spacers, 1);
+            background-image: url('/bundles/naturals/assets/images/image.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.cms-element-moorl-magazine {
+    .col-auto {
+        margin-bottom: 20px;
+    }
+}
+
+.article {
+    img {
+        width: 100%;
+    }
+
+    margin-bottom: 40px;
+
+    .article-title {
+        margin-bottom: 20px;
+    }
+}
+
+.cms-block-rhweb-cta-banner-basic {
+    margin-bottom: 20px;
+}
+
+#moorl-magazine-comment {
+    margin-bottom: 40px !important;
+}
+
+.moorl-magazine-paginate {
+    margin-bottom: 30px;
+}
+
+.moorl-magazine-article {
+    h1 {
+        font-size: 25px;
+
+        @include media-breakpoint-up(md) {
+            font-size: 50px;
+        }
+    }
+
+    h2 {
+        font-size: 25px;
+
+        @include media-breakpoint-up(md) {
+            font-size: 50px;
+        }
+    }
+}

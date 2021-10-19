@@ -1,0 +1,25 @@
+.offcanvas {
+    .offcanvas-close {
+        display: flex;
+        align-items: center;
+        padding: map-get($spacers, 2) map-get($spacers, 4);
+        box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+        @extend .fs-lg;
+
+        .icon-arrow-head-left {
+            margin-right: map-get($spacers, 1);
+        }
+
+        svg {
+            top: 0;
+        }
+    }
+
+    .offcanvas-content-container {
+        padding: $offcanvas-padding-y $offcanvas-padding-x;
+    }
+
+    .alert {
+        margin: map-get($spacers, 4) 0;
+    }
+}

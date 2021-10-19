@@ -1,0 +1,53 @@
+{
+    "header": {
+        "home": "Home page"
+    },
+    "uspBar": {
+        "item1": "Free shipping over 18 €",
+        "item2": "Shipping within 24 hours",
+        "item3": "30 days money back guarantee",
+        "item4": "info@99naturals.de",
+        "item5": "Tel. 0911-95338394"
+    },
+    "detail": {
+        "listPricePercentage": "You save %price% %",
+        "naturalsIconHeadline": "Green superpower for you",
+        "propertiesTitle": "Nutritional values",
+        "propertiesText": "Unprepared per 100 g",
+        "qualitiesTitle": "Our promise of quality",
+        "qualitiesListItem1": "Raw goods from paernern certified in Germany",
+        "qualitiesListItem2": "gentle processing",
+        "qualitiesListItem3": "guaranteed vegan products",
+        "qualitiesListItem4": "ecological packaging",
+        "qualitiesListItem5": "the shortest possible transport routes",
+        "qualitiesListItem6": "good service for you",
+        "qualitiesText": "Our products contain no colorings, fillers, artificial flavors, thickeners or preservatives."
+    },
+    "footer": {
+        "copyrightInfo": "© 2021 99naturals, green superpower for you.",
+        "contactHeadline": "Contact",
+        "socialHeadline": "Follow us",
+        "certifiedHeadline": "Organic-certified",
+        "secureShoppingHeadline": "Secure shopping",
+        "contactText": "Do you have questions or <br> you need advice?",
+        "formText": "Then write us <br> just a message <br> through our contact <br> form or send an e-mail <br> to <a href='mailto:info@99naturals.de'>info@99naturals.de</a>",
+        "newsletter": {
+            "text": "Register now for our newsletter and save <span class='text-primary'>10 %</span> on your next order!",
+            "submit": "Register*"
+        }
+    },
+    "newsletter": {
+        "placeholderMail": "Your email address"
+    },
+    "socialMedia": {
+        "facebookLink": "#",
+        "facebookTitle": "Facebook",
+        "instagramLink": "#",
+        "instagramTitle": "Instagram",
+        "twitterLink": "#",
+        "twitterTitle": "Twitter"
+    },
+    "listing": {
+        "boxProductDetails": "Go to product"
+    }
+}

@@ -1,0 +1,47 @@
+$text-font-sizes: (
+    xsm: 12px,
+    sm: 14px,
+    md: 16px,
+    lg: 18px,
+    xl: 22px
+);
+
+$text-line-heights: (
+    xsm: 18px,
+    sm: 22px,
+    md: 24px,
+    lg: 28px,
+    xl: 30px
+);
+
+$text-font-sizes-lg: (
+    xsm: 12px,
+    sm: 14px,
+    md: 16px,
+    lg: 18px,
+    xl: 22px
+);
+
+$text-line-heights-lg: (
+    xsm: 18px,
+    sm: 22px,
+    md: 24px,
+    lg: 28px,
+    xl: 30px
+);
+
+@each $key, $font-size in $text-font-sizes {
+    .fs-#{$key} {
+        font-size: rem($font-size);
+        line-height: line-height(map-get($text-line-heights, $key), $font-size);
+    }
+}
+
+@each $key, $font-size in $text-font-sizes-lg {
+    @include media-breakpoint-up(lg) {
+        .fs-up-#{$key} {
+            font-size: rem($font-size);
+            line-height: line-height(map-get($text-line-heights-lg, $key), $font-size);
+        }
+    }
+}

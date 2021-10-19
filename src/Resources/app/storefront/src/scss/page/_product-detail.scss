@@ -1,0 +1,223 @@
+.is-ctl-product {
+    .btn-buy {
+        background-color: $sw-color-buy-button;
+        color: $sw-color-buy-button-text;
+
+        &:hover {
+            background-color: $sw-color-buy-button;
+        }
+    }
+}
+
+//gallery 
+.product-detail-media {
+    .gallery-slider-controls {
+        @include media-breakpoint-up(md) {
+            display: none;
+        }
+    }
+
+    .base-slider-dots {
+        display: none;
+    }
+}
+
+//buybox
+.product-detail-name {
+    margin: 0;
+    @extend .h3;
+    color: $sw-color-brand-primary;
+}
+
+.product-detail-price {
+    margin-bottom: map-get($spacers, 4);
+    @extend .h3;
+    font-weight: $font-weight-semibold;
+    color: $sw-text-color;
+}
+
+.product-detail-list-price-wrapper,
+.product-detail-tax-link {
+    @extend .fs-sm;
+}
+
+.list-price-price {
+    text-decoration: line-through;
+}
+
+.list-price-percentage {
+    color: $sw-color-brand-primary-dark;
+}
+
+.product-detail-delivery-information {
+    margin-bottom: map-get($spacers, 10);
+
+    .delivery-status-indicator {
+        display: none;
+    }
+}
+
+.product-detail-form-container {
+    .col-auto {
+        padding-right: map-get($spacers, 6);
+    }
+}
+
+.product-detail-quantity-select {
+    height: 100%;
+    background-color: $gray-bg;
+    border: 0;
+}
+
+.product-detail-price-unit {
+    display: none;
+    @extend .fs-md;
+}
+
+.price-unit-reference-content {
+    @extend .fs-sm;
+}
+
+.product-detail-unit-price-container {
+    margin-bottom: map-get($spacers, 2);
+
+    .product-detail-price,
+    .product-detail-list-price-wrapper {
+        display: none;
+    }
+
+    .product-detail-price-unit {
+        display: block;
+    }
+}
+
+.product-detail-naturals-icons-headline {
+    font-weight: $font-weight-bold;
+    @extend .fs-lg;
+}
+
+.product-detail-naturals-icon-col {
+    max-width: 130px;
+}
+
+// description section
+.product-detail-description {
+    padding-top: map-get($spacers, 25);
+}
+
+.product-detail-ordernumber-container {
+    padding-top: map-get($spacers, 7);
+}
+
+//properties and qualities section
+.product-detail-properties-qualities {
+    position: relative;
+    padding: map-get($spacers, 20) 20px;
+
+    @include media-breakpoint-up(md) {
+        padding: map-get($spacers, 50) 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+        padding: map-get($spacers, 75) 0;
+    }
+
+    &-bg {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        height: 100%;
+        width: 100vw;
+        transform: translateX(-50%);
+
+        @include media-breakpoint-up(lg) {
+            transform: translateX(-50.5%);
+        }
+    }
+}
+
+.product-detail-properties-table {
+    tbody {
+        .properties-row {
+            background: transparent;
+        }
+    }
+
+    .properties-label,
+    .properties-value {
+        padding: 0 map-get($spacers, 3) map-get($spacers, 1) 0;
+        border: 0;
+        font-weight: $font-weight-semibold;
+    }
+
+    .properties-label {
+        width: 40%;
+        min-width: 200px;
+        font-weight: $font-weight-bold;
+    }
+}
+
+.gbmed-lmiv {
+    h4 {
+        margin-top: map-get($spacers, 5);
+        margin-bottom: map-get($spacers, 2);
+    }
+}
+
+.product-detail-qualities {
+    p {
+        font-weight: $font-weight-semibold;
+    }
+}
+
+//cross-selling
+.product-detail-cross-selling {
+    .cms-element-title-paragraph {
+        display: none;
+    }
+}
+
+.product-detail-cross-selling-row {
+    margin-bottom: map-get($spacers, 7);
+}
+
+.category-navigation-link {
+    @include media-breakpoint-up(md) {
+        font-size: 1.25rem;
+    }
+    
+    &.is-active {
+        padding: 8px 0;
+
+        @include media-breakpoint-up(md) {
+           font-size: 1.563rem;
+        }
+    }
+}
+
+.product-variant-characteristics {
+    display: none;
+}
+
+.product-box {
+    .product-name {
+        height: auto;
+    }
+}
+
+.filter-panel-item  {
+    .filter-panel-item-toggle {
+        @include media-breakpoint-up(md) {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.headline-pages {
+    font-size: 25px;
+    padding-top: 30px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 50px;
+    }
+}

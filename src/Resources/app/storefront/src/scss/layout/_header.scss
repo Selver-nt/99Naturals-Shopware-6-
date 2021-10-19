@@ -1,0 +1,95 @@
+.header-main {
+    position: relative;
+    padding-top: map-get($spacers, 4);
+    padding-bottom: map-get($spacers, 2);
+
+    @include media-breakpoint-up(lg) {
+        padding-top: map-get($spacers, 7);
+        padding-bottom: map-get($spacers, 7);
+    }
+}
+
+.header-row {
+    padding: 0;
+
+    @include media-breakpoint-up(lg) {
+        justify-content: space-between;
+    }
+}
+
+.header-logo-col {
+    margin: 0 0 map-get($spacers, 3);
+    padding-bottom: 0;
+
+    @include media-breakpoint-up(lg) {
+        margin: 0;
+    }
+}
+
+.header-logo-main-img {
+    max-height: 60px;
+}
+
+.header-search-col {
+    position: static;
+
+    @include media-breakpoint-up(lg) {
+        padding-top: map-get($spacers, 4);
+    }
+
+    .collapse:not(.show) {
+        @include media-breakpoint-up(lg) {
+            display: none;
+        }        
+    }
+}
+
+.header-search {
+    @include media-breakpoint-up(lg) {
+        max-width: 100%;
+        min-width: 300px;
+    }
+}
+
+.header-search-btn {
+    padding: 0 0 0 map-get($spacers, 5);
+
+    .icon {
+        height: 26px;
+        width: 26px;
+
+        svg {
+            top: 2px;
+        }
+    }
+}
+
+.header-actions-col {
+    @include media-breakpoint-up(lg) {
+        padding-top: map-get($spacers, 4);
+    }
+}
+
+.header-actions-btn {
+    padding-left: map-get($spacers, 3);
+    padding-right: map-get($spacers, 3);
+
+    @include media-breakpoint-up(lg) {
+        padding-left: map-get($spacers, 2);
+        padding-right: map-get($spacers, 2);
+    }
+
+    .icon {
+        height: 26px;
+        width: 26px;
+
+        svg {
+            top: 2px;
+        }
+    }
+}
+
+// header minimal
+.header-minimal {
+    padding-top: map-get($spacers, 5);    
+}

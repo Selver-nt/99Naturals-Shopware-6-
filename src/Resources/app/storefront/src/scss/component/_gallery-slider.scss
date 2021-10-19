@@ -1,0 +1,34 @@
+.gallery-slider-thumbnails-col {
+    margin-top: map-get($spacers, 4);
+}
+
+.gallery-slider-thumbnails-container {
+    &.is-underneath {
+        .tns-outer {
+            margin: 0;
+        }
+    }
+}
+
+.gallery-slider-thumbnails {
+    &.is-underneath {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.gallery-slider-thumbnails-item {
+    height: auto;
+}
+
+.gallery-slider-thumbnails-item-inner {
+    padding: 0;
+    border: 0;
+}
+
+.gallery-slider-thumbnails-image {
+    width: 100%;
+    max-width: 180px;
+    max-height: 180px;
+    object-fit: contain;
+}

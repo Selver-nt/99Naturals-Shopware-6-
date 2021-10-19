@@ -1,0 +1,8 @@
+.checkout-aside-summary-header,
+.checkout-aside-product-header {
+    @extend .h3;
+}
+
+.checkout-aside-action {
+    margin-top: map-get($spacers, 6);
+}

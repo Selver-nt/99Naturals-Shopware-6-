@@ -1,0 +1,6 @@
+.list-group-item-action {
+    &:hover {
+        background: transparent;
+        color: $sw-color-brand-primary;
+    }
+}

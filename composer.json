@@ -1,0 +1,18 @@
+{
+  "name": "swag/theme-skeleton",
+  "description": "Theme naturals",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Naturals\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Naturals\\Naturals",
+    "label": {
+      "de-DE": "Naturals theme",
+      "en-GB": "Naturals theme"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Naturals",
+  "author": "Shopware AG",
+  "views": [
+     "@Storefront",
+     "@Plugins",
+     "@Naturals"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@StorefrontBootstrap",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/naturals.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ],
+  "config": {
+    "fields": {
+      "sw-color-brand-primary": {
+        "value": "#90d520"
+      },
+      "sw-color-brand-secondary": {
+        "value": "#ec654a"
+      },
+      "sw-border-color": {
+        "value": "#727373"
+      },
+      "sw-background-color": {
+        "value": "#fff"
+      },
+      "sw-font-family-base": {
+        "value": " 'Ubuntu', sans-serif"
+      },
+      "sw-text-color": {
+        "value": "#3c3c3c"
+      },
+      "sw-font-family-headline": {
+        "value": "'Ubuntu', sans-serif"
+      },
+      "sw-headline-color": {
+        "value": "#3c7c5e"
+      },
+      "sw-color-price": {
+        "value": "#3c7c5e"
+      },
+      "sw-color-buy-button": {
+        "value": "#ec654a"
+      },
+      "sw-color-buy-button-text": {
+        "value": "#fff"
+      },
+      "sw-logo-desktop": {
+        "value": "app/storefront/src/assets/logo/99naturals-logo.jpg"
+      },
+      "sw-logo-tablet": {
+        "value": "app/storefront/src/assets/logo/99naturals-logo.jpg"
+      },
+      "sw-logo-mobile": {
+        "value": "app/storefront/src/assets/logo/99naturals-logo.jpg"
+      }
+    }
+  }
+}

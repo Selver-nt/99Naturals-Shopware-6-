@@ -1,0 +1,13 @@
+.alert {
+    .icon {
+        flex: 0 0 22px;
+
+        svg {
+            top: 0;
+        }
+    }
+
+    .alert-content-container {
+        padding-left: map-get($spacers, 2);
+    }
+}

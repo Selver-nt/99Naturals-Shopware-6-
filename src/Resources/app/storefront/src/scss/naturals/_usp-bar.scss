@@ -1,0 +1,15 @@
+.usp-bar {
+    padding: map-get($spacers, 3) 0 map-get($spacers, 2);
+    background-color: $sw-color-brand-primary;
+    @extend .fs-sm;
+
+    .icon {
+        height: 18px;
+        width: 18px;
+        margin-right: map-get($spacers, 1);
+
+        svg {
+            top: -2px;
+        }
+    }
+}
